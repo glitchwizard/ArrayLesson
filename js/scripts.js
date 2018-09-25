@@ -9,7 +9,6 @@ $(document).ready(function () {
     ArrayOutput.push(foodinput);
     ArrayOutput.push(carinput);
     ArrayOutput.push(placeinput);
-    console.log(ArrayOutput);
     };
     getfavs();
     $("span#fav1answer").text(ArrayOutput[0]);
